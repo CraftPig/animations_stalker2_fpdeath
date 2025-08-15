@@ -13,7 +13,7 @@ SWEP.Category = "S.T.A.L.K.E.R. 2"
 -- SWEP.Category1 = "EFT"
 -- SWEP.Category2 = "Medkits"
 
-SWEP.ViewModelFOV = 90
+SWEP.ViewModelFOV = 100
 SWEP.ViewModel = "models/animations/fp/stalker2/death/v_death.mdl"
 SWEP.WorldModel = ""
 SWEP.UseHands = true
@@ -244,5 +244,5 @@ hook.Add("HUDShouldDraw", "HideDefaultHUDOnDeath", function(name)
 		end
 	
 	end
-
+	
 end)
